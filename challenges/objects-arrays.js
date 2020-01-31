@@ -1,7 +1,7 @@
 // ==== Objects ====
 
 
- let tyranosaurus = {
+ const tyranosaurus = {
   name : 'tyrannosaurus',
   diet: 'carnivorous',
   weight: '7000kg',
@@ -11,14 +11,14 @@
     return 'RAWERSRARARWERSARARARRRR!'
   }
 }
-let stegosaurus = {
+const stegosaurus = {
  name: 'stegosaurus',
  diet:  'herbivorous', 
  weight: '2000kg',
  length: '9m', 
  period: 'Late Jurassic'
 }
-let velociraptor = {
+const velociraptor = {
 name: 'velociraptor', 
 diet: 'carnivorous', 
 weight: '15kg',
@@ -130,7 +130,7 @@ The zoos are concerned about animals with a lower population count. Using filter
 
 */
 let lowPopulationAnimals = zooAnimals.filter(elem => elem.population < 5)
-console.log(lowCaseAnimals)
+console.log(lowPopulationAnimals)
 
 /* Request 4: .reduce() 
 
